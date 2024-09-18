@@ -1,0 +1,226 @@
+@font-face {
+    font-family: dev;
+    src: url(fonts/De\ Valencia\ \(beta\).otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: dev;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.main {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 99;
+    background-color: transparent;
+    overflow: hidden;
+}
+
+.images{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    z-index: 8;
+  
+}
+
+.images img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    /* position: absolute; */
+    z-index: 8;
+    
+}
+
+.center {
+    width: 90%;
+    height: 100%;
+    /* background: #000; */
+    padding: 2vw 0vw;
+    z-index: 10;
+    position: absolute;
+    pointer-events: none;
+}
+
+.nav {
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav .nav-left {
+    width: 27%;
+    /* background: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav .nav-left img {
+    width: 6vw;
+}
+
+.nav .nav-left a {
+    font-size: 1vw;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    /* font-weight: 100; */
+    pointer-events: all;
+}
+
+.nav .nav-right {
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+
+.nav .nav-right a {
+    font-size: 1vw;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    pointer-events: all ;
+}
+
+.middle {
+    width: 100%;
+    /* background-color: aqua; */
+    height: 90%;
+    padding: 5vw 0vw;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+
+}
+
+.middle .left .text .first {
+
+    /* background-color: red; */
+    width: 22vw;
+    height: 7vw;
+    overflow: hidden;
+    position: relative;
+    
+}
+
+.middle .left .text .first h1
+ {
+    position: absolute;
+    font-size: 6vw;
+    text-transform: uppercase;
+    letter-spacing: -2vw;
+    font-weight: 1000;
+    color: whitesmoke;
+    transition: all ease 0.4s;
+}
+
+.middle .left .text .first h1:nth-child(1)
+ {
+
+    top: 0;
+
+}
+
+.middle .left .text .first h1:nth-child(2) {
+
+    top: 100%;
+
+}
+
+.middle .left .text .first h1:nth-child(3) {
+
+    top: 200%;
+
+}
+
+.middle .left .text .first h1:nth-child(4){
+
+    top: 300%;
+
+}
+
+.middle .left .text .first h1:nth-child(5) {
+
+    top: 400%;
+
+}
+
+.middle .left button {
+    height: 3vw;
+    width: 15vw;
+    border: 1px solid rgba(0, 0, 0, 0.437);
+    font-size: 2vw;
+    letter-spacing: -0.5vw;
+    text-transform: uppercase;
+    box-shadow: 0px 0px 3px 0px rgb(0 0 0 / 25%);
+
+}
+
+.middle .right {
+    width: 20%;
+    height: 100%;
+    /* background-color: red; */
+
+}
+
+.middle .right img {
+    width: 80%;
+    height: 27%;
+    /* background-color: red; */
+    object-fit: cover;
+    margin-left: 3.6vw;
+    margin-top: 1.5vw;
+    margin-bottom: 1.5vw;
+
+}
+
+.middle .right p:nth-child(1) {
+    /* letter-spacing: -.2vw; */
+    text-transform: lowercase;
+    text-align: end;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    color: whitesmoke;
+
+
+}
+
+.middle .right p:nth-child(3) {
+    
+    text-transform: lowercase;
+    text-align: end;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 1.5vw;
+    color: whitesmoke;
+
+}
+
+.middle .right p:nth-child(4) {
+   
+    text-transform: lowercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: end;
+    color: whitesmoke;
+    margin-top: 6vw;
+
+}
