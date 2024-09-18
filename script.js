@@ -1,10 +1,6 @@
 var main = document.querySelector(".main");
 var first = document.querySelectorAll(".first");
-// var h1 = document.querySelector(".text h1:nth-child(1)");
-// var h2 = document.querySelector(".text h1:nth-child(2)");
-// var h3 = document.querySelector(".text h1:nth-child(3)");
-// var h4 = document.querySelector(".text h1:nth-child(4)");
-// var h5 = document.querySelector(".text h1:nth-child(5)");
+
 
 first.forEach(function (e) {
   var h11 = e.querySelectorAll(".text h1");
@@ -19,93 +15,6 @@ first.forEach(function (e) {
     }
   });
 });
-
-// var h1 = [].slice.call(document.querySelectorAll('.text h1'));
-// console.log(h1)
-// var i = 0;
-// console.log(h11[1]);
-// h11.forEach(function () {
-//   main.addEventListener("click", function () {
-//     h11[i].style.top = h11[i].style.top+ "-100%";
-//     i++;
-//   });
-// });
-
-// for (let i = 0; i < h11.length; i++) {
-//   main.addEventListener("click", function () {
-//     h11[0].style.top = (-i)+"00%";
-//     h11[1].style.top = (i)+"00%";
-//     h11[2].style.top = (i+1)+"00%";
-//     h11[3].style.top = (i+2)+"00%";
-//     h11[4].style.top = (i+3)+"00%";
-
-//     console.log("top = ",i, h11[i].style.top);
-//     // i++;
-//   });
-// }
-
-// function fh1() {
-//   main.addEventListener("click", function () {
-//     h1.style.top = "-100%";
-//     //   console.log(h1.style.top);
-//     if (h1.style.top == "-100%") {
-//       h1.style.top = "400%";
-//     } else {
-//       h1.style.top = h1.style.top + "-100%";
-//     }
-//   });
-// }
-
-// function fh2(){
-//     main.addEventListener("click", function () {
-//         h2.style.top = "0";
-//         if (h2.style.top == "0") {
-//           h2.style.top = "400%";
-//         }
-//         else{
-//           fh2();
-//         }
-//       });
-// }
-// function fh3(){
-//     main.addEventListener("click", function () {
-//         h3.style.top = "100%";
-//         if (h3.style.top == "-100%") {
-//           h3.style.top = "400%";
-//         }
-//         else{
-//           fh3();
-//         }
-//       });
-// }
-// function fh4(){
-//     main.addEventListener("click", function () {
-//         h4.style.top = "200%";
-//         if (h4.style.top == "-100%") {
-//           h4.style.top = "400%";
-//         }
-//         else{
-//           fh4();
-//         }
-//       });
-// }
-// function fh5(){
-//     main.addEventListener("click", function () {
-//         h5.style.top = "300%";
-//         if (h5.style.top == "-100%") {
-//           h5.style.top = "400%";
-//         }
-//         else{
-//           fh5();
-//         }
-//       });
-// }
-
-// fh1();
-// fh2()
-// fh3()
-// fh4()
-// fh5()
 
 Shery.imageEffect(".images", {
   style: 5,
