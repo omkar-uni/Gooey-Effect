@@ -131,7 +131,7 @@ body {
     letter-spacing: -2vw;
     font-weight: 1000;
     color: whitesmoke;
-    transition: all ease 0.4s;
+    transition: all ease 1s;
 }
 
 .middle .left .text .first h1:nth-child(1)
